@@ -1,15 +1,16 @@
 #InstaLikeBot by Soumen Mondal
+
 #Date 12.02.2020
 
-<DESCRIPTION>
+DESCRIPTION
 
 Logs into your account and goto a specific hashtag/username and likes almost 25 posts in it
 
-<REQUIREMENTS>
+REQUIREMENTS
 
 FireFox Browser, Python, Selenium, geckodriver
 
-<INSTRUCTIONS>
+INSTRUCTIONS
 
 before running make sure you have installed selenium, use the following code for that
 
@@ -27,7 +28,7 @@ or if you have Anaconda installed
 
 c:\Users\<YOUR USERNAME>\Anaconda3
 
-<WARNING!!!>
+WARNING!!!
 
 Kindly do not set the value of count in script more than 20-25, otherwise Instagram could detect
 
