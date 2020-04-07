@@ -26,15 +26,15 @@ class InstaLikeBot:
         time.sleep(5)
         
         
-    def like_post(self,hashtag):
+    def like_post(self,keytag):
         count=0
         bot = self.bot
  
         #if you want to search hashtag use this line bellow ->
-        bot.get('https://www.instagram.com/explore/tags/'+hashtag+'/')
+        bot.get('https://www.instagram.com/explore/tags/'+keytag+'/')
 
         #if you want to search people username use bellow line ->
-        bot.get('http://www.instagram.com/'+profilename+'/')
+        bot.get('http://www.instagram.com/'+keytag+'/')
 
         #when using one of this above link comment the other one to make it work 
 
