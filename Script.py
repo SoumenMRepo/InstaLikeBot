@@ -29,17 +29,17 @@ class InstaLikeBot:
     def like_post(self,hashtag):
         count=0
         bot = self.bot
-
-        #if you want to search hashtag use the first line bellow ->
+ 
+        #if you want to search hashtag use this line bellow ->
         bot.get('https://www.instagram.com/explore/tags/'+hashtag+'/')
 
         #if you want to search people username use bellow line ->
-        bot.get('http://www.instagram.com/'+hashtag+'/')
+        bot.get('http://www.instagram.com/'+profilename+'/')
 
         #when using one of this above link comment the other one to make it work 
 
         time.sleep(4)
-        for i in range(1,3):
+        for i in range(1,3):  #scrolling purpose
             bot.execute_script('window.scrollTo(0,document.body.scrollHeight)')
             time.sleep(random.randrange(3,5))
             posts = bot.find_elements_by_class_name('v1Nh3')
